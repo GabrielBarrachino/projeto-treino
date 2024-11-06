@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="container mx-auto p-3 flex flex-col justify-center items-center">
+    <div className="container mx-auto p-3">
       <h1 className="text-center font-bold text-2xl">MEUS TREINOS DE ACADEMIA</h1>
 
       <div className="mb-8">
@@ -158,7 +158,7 @@ export default function Home() {
 
 
       <div>
-        <h2 className="font-semibold">QUARTA: PEITOS E TRICEPS</h2>
+        <h2 className="font-semibold text-red-500">QUARTA: PEITOS E TRICEPS</h2>
         <div>
           <h3 className="text-blue-500 font-bold text-lg">PEITO</h3>
           <p className="font-medium">Primeiro Exercício: supino inclinado com halteres - 4 x 10 a 12 repetições</p>
@@ -197,31 +197,67 @@ export default function Home() {
 
 
       <div>
-        <h2 className="font-semibold">QUINTA: ABDÔMEN E PANTURRILHA</h2>
+        <h2 className="font-semibold text-red-500">QUINTA: ABDÔMEN E PANTURRILHA</h2>
         <div>
           <h3 className="text-blue-500 font-bold text-lg">ABDÔMEN</h3>
+          <Image
+            src="/img13.jpg"
+            alt="Imagem ilustrando o treino de costas"
+            width={500} 
+            height={300} 
+          />
           <p className="font-medium">Primeiro Exercício: abdominal normal - máximo de repetição dentro de 1 min</p>
         </div>
         <div>
+          <Image
+            src="/img14.webp"
+            alt="Imagem ilustrando o treino de costas"
+            width={500} 
+            height={300} 
+          />
           <p className="font-medium">Segundo Exercício: abdominal infra - máximo de repetição dentro de 1 min</p>
         </div>
         <div>
+          <Image
+            src="/img15.webp"
+            alt="Imagem ilustrando o treino de costas"
+            width={500} 
+            height={300} 
+          />
           <p className="font-medium">Terceiro Exercício: abdominal supra com anilha - máximo de repetição dentro de 1 min</p>
         </div>
         <div>
+          <Image
+            src="/img16.webp"
+            alt="Imagem ilustrando o treino de costas"
+            width={500} 
+            height={300} 
+          />
           <p className="font-medium">Quarto Exercício: 1 min de prancha</p>
         </div>
         <div>
           <h3 className="text-blue-500 font-bold text-lg">PANTURRILHA</h3>
+          <Image
+            src="/img17.jpg"
+            alt="Imagem ilustrando o treino de costas"
+            width={500} 
+            height={300} 
+          />
           <p className="font-medium">Quinto Exercício: gemêos em pé - 4 x 10 a 12 repetições</p>
         </div>
         <div>
+          <Image
+            src="/img18.jpg"
+            alt="Imagem ilustrando o treino de costas"
+            width={500} 
+            height={300} 
+          />
           <p className="font-medium">Sexto Exercício: gemêos leg press reta - 4 x 10 a 12 repetições</p>
         </div>
       </div>
 
       <div>
-        <h2 className="font-semibold">QUINTA: OMBROS E TRAPEZIO</h2>
+        <h2 className="font-semibold text-red-500">SEXTA: OMBROS E TRAPEZIO</h2>
         <div>
           <h3 className="text-blue-500 font-bold text-lg">OMBROS</h3>
           <p className="font-medium">Primeiro Exercício: elevação lateral com halteres - 3x 10 a 12 repetições</p>
